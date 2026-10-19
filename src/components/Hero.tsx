@@ -17,8 +17,8 @@ export function Hero() {
           priority
           className="animate-kenburns will-change-transform motion-reduce:animate-none"
         />
-        <div className="absolute inset-0 bg-linear-to-t from-navy/55 via-navy/5 to-transparent" />
-        <div className="absolute inset-0 bg-linear-to-r from-navy/45 via-navy/5 to-transparent" />
+        <div className="absolute inset-0 bg-linear-to-t from-navy/25 via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-linear-to-r from-navy/15 via-transparent to-transparent" />
       </div>
 
       {/* Soft shadow keeps white type legible over the lighter overlay. */}
@@ -48,10 +48,6 @@ export function Hero() {
           </a>
         </div>
       </div>
-
-      <p className="absolute right-5 bottom-4 text-[0.7rem] tracking-wide text-white/70 sm:right-8">
-        Illustrative interior
-      </p>
     </section>
   )
 }
