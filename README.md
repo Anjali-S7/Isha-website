@@ -51,8 +51,14 @@ Built-in spam protection: a hidden honeypot field, a minimum time-on-form check 
   On the navy footer the original sits on a white tile.
 - Photographs: the three images embedded in the brochure, exported as WebP at 768w (original) and 1536w (2× Lanczos upscale)
   in `public/images/`. **The brochure only contains 768 × 512 px versions.** Replace these files with the original
-  high-resolution images (same filenames) for sharper results on large and retina screens, especially the full-bleed hero.
-- All imagery is labelled as illustrative, and the footer states that interiors do not depict completed ISHA projects.
+  high-resolution images (same filenames) for sharper results in the content sections on large and retina screens.
+- The hero opens with the original brochure living room, followed by real Unsplash photographs of smart-lighting controls,
+  a home-security automation system, and a modern house exterior. Added photographs have responsive versions up to 3840 pixels wide.
+  Backgrounds change automatically every six seconds with no visible slider controls.
+  Reduced-motion preferences disable automatic playback, and keyboard focus pauses rotation.
+  Images load before joining the rotation; unavailable images are skipped and the original room stays underneath as a fallback.
+  See [hero photograph sources and credits](docs/hero-imagery.md).
+- The footer states that the interiors do not depict completed ISHA projects.
 
 ## Before launch
 
